@@ -1,0 +1,2 @@
+In Python for boolean value True & False, the numeric values 1 & 0 will be assigned by defalut, respectively.
+In Python comma(,) is used as a seperator, to seperate String & variable.
