@@ -22,3 +22,9 @@ print('Py' in b) # F
 print('Ja' not in b) # F
 print('Py' not in b) # T
 
+# string comparison
+x = 'Python'
+y = 'Java'
+print(x == y)
+print(x != y)
+
