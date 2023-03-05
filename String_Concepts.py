@@ -5,12 +5,24 @@ print(e)
 # * usage with string
 print("Python "*3)
 
-# slicing
+'''
+slicing
+-----------
+syntax: [start_index:stop_index:step]
+1. here stop_index-1 will be considered
+2. by default step will be 1
+3. If step is positive then the cursor will move from left to right & if it negative
+the cursor will move from right to left
+4. By default start_index will be 0 or -1 based on step
+5. By default stop_index will be last index, here last index will be included
+'''
 a = 'Python'
-print(a[1:3]) # from y to t(3-1)
-print(a[1:]) # by default last index of the specified string will be considered as last index
-print(a[:3]) # By default start index will be considered as 0
+print(a[1:3])
+print(a[1:])
+print(a[:3])
 print(a[:-1]) # last index in the specified string will be ignored
+print(a[1:2:1])
+print(a[-1:-3:-1])
 
 # in operator use with string
 b = 'Java'
