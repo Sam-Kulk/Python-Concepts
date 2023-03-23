@@ -39,4 +39,3 @@ x = 'Python'
 y = 'Java'
 print(x == y)
 print(x != y)
-
