@@ -1,0 +1,11 @@
+Function means a set of statements, which will perform a certain task.
+
+There are two types of functions in Python
+1. Built-In
+2. User Defined
+
+1. Built-In functions will be readily avaliable for use
+
+2. I can work with User-defined function by following two steps
+a. Function Defination
+b. Calling/Invoking the declared function
