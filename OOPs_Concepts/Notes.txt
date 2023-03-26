@@ -1,0 +1,36 @@
+Python is both Structured & Object-Oriented programming language, whereas Java is purely an Object-Oriented programming language
+It means python does not need class & object to run any program as it Structured
+
+Object Oriented Programming concepts(OOPs concepts)
+1. Class
+2. Object
+3. Polymorphism
+4. Inheritance
+
+1. Class:
+It is collection of variables & methods
+It is just a blue-print
+
+Note: Function vs Method
+Function defined inside the class is called Method, if it is defined outside/without the class, then it is general function
+
+2. Object
+It is an instance of the class
+
+CLASS VARAIBLES:
+The variable which is declared within the class but outside the method, it is called class variable
+By default the scope of the class variable is inside the class but outside the method
+
+
+METHOD V/S CONSTRUCTOR
+Method:
+I can give any name i.e. def any(self):
+It can have parameters
+It can return value
+To call the method, i need use object i.e.object.any()
+
+Constructor:
+Constructor name is fixed i.e. def __init__(self):
+It can have parameters
+It will not return values
+Constructor will be called at the time of object creation

@@ -41,7 +41,7 @@ print(tuple1)
 
 # How to join two tuples to form a new one
 tuple4 = (10, 12, 13)
-tuple5 = ('A', 'B', 'C')
+tuple5 = ('OOPs_Concepts', 'B', 'C')
 tuple6 = tuple4 + tuple5
 print(tuple6)
 

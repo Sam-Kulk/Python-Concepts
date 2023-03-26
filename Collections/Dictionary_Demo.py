@@ -33,11 +33,11 @@ Dic1["Z"] = 500
 print(Dic1)
 
 # How to add items to dictionary
-Dic1["A"] = 900
+Dic1["OOPs_Concepts"] = 900
 print(Dic1)
 
 # How to perform delete operation on dictionary
-Dic1.pop("A") # Just to delete one item(Key:value)
+Dic1.pop("OOPs_Concepts") # Just to delete one item(Key:value)
 print(Dic1)
 
 del Dic1["X"]

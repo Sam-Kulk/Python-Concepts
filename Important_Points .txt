@@ -1,3 +1,5 @@
 In Python for boolean value True & False, the numeric values 1 & 0 will be assigned by defalut, respectively.
 In Python comma(,) is used as a seperator, to seperate String & variable.
 In python positive indexing starts from 0 & negative index starts from -1
+The method/function name should be usually one word & it should be in lowercase
+The class name should be CamelCase
