@@ -3,3 +3,6 @@ In Python comma(,) is used as a seperator, to seperate String & variable.
 In python positive indexing starts from 0 & negative index starts from -1
 The method/function name should be usually one word & it should be in lowercase
 The class name should be CamelCase
+In Python single & double quotes both are considered as same.
+
+In python '.' is used for navigation between different modules.

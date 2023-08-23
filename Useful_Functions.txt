@@ -1,3 +1,0 @@
-type() : It will return the data-type of the value passed
-int() : It will convert data-type of the value passed to int, provided value passed should be number
-float() : It will convert data-type of the value passed to float, provided value passed should be number

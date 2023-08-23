@@ -1,0 +1,6 @@
+Python Indentation
+=========================
+1. Python Indentation refers to the space(s) at the beginning of the code line.
+2. The indentation is used in Python to indicate a block of code that is basically used to define the scope of loops,conditions,functions, methods, classes.
+3. Indentation is mandatory in Python wherever applicable, otherwise IndentationError will come.
+4. There has to be at least one space but the standard is four i.e. Tab space

@@ -1,0 +1,34 @@
+Error & Exception
+-----------------------------
+- Error is an event that causes the termination of the program
+- The causes of the error maybe different i.e. syntax, logical, invalid data, resource unavalibality, network failures reasons etc
+- The error can occur at runtime as well as compile time.
+- The error that can be handled or that is handled by try and except are called as expections
+- All errors are not exceptions, but all exceptions are errors
+- All exceptions will be at runtime
+- The primary causes of the exceptions are unsupported operation/action, invalid data, resource unavaliabitity.
+Ex of errors: Syntax error, Indentation error at compile time & Name Error at run time
+Ex of exception: FileNotFound error & Zero Division error
+
+Object Oriented Programming(OOP)
+======================================
+- It is a way of organizing/managing the code using the concept of object.
+- Everything is an object.
+- The object will have properties here 'Variables' & actions that it can do i.e. here functions
+Ex : Lion is an object, Colour & Size are properties & roar & bite are actions that it can do.
+- Similarily the code is managed withing class(Object), Variables(Properties) & Functions(Methods)
+- The purpose is to develop a structured code which is easily resuable & maintainable, thorough inheritance & polymorphism.
+- Python supports OOP so it is OOPL
+- Python is even structured programming language, i.e. it follows some structured way to write code, that's why need not mention the datatype of the value.
+
+Why PIP doesn't work in projects
+==================================================================================
+Because pycharm projects uses venv & packages needs to be installed on top of the python being used.
+
+Python Package v/s Directory
+===================================
+- Both are simply the collection of related modules.
+- The only proper difference between these two are that the package will be having the __init__.py file,
+  which can be empty or can contain initialization code.
+- Python Pacakge will help in better organization of related modules compared to directory, basically used by developers.
+- From automation point of view, there no much difference, use of directory is ok

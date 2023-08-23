@@ -2,6 +2,12 @@ In Python, Package is nothing but collection of modules i.e. it is just like dir
 
 The modules in one package/sub-package can be imported into another package/sub-package by import statement
 
+syntax to import
+---------------------
 import package.sub-package.moduleName
 or
 from package.sub-package.moduleName import *(Preffered)
+
+Note:
+- By default the control will be in project name
+- '.' is used for navigation

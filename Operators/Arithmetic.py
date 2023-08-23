@@ -1,4 +1,4 @@
-# These operators are used to perform mathematical opeartions
+# These operators are used to perform mathematical operations on two values or variables
 
 a = 10
 b = 3
@@ -14,6 +14,9 @@ print(sub)
 # 3. Multiplication
 mul = a*b
 print(mul)
+
+# Note: I can use '*' to multiply strings
+print("a"*2)
 
 # 4. Division
 div = a/b   # gives division answer

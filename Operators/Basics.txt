@@ -1,6 +1,11 @@
-Operators are the one which are used to perform the certain operations on the two values or variables
+Operators are the one which are used to perform the certain operations on the two variables/values
 
-There are 3 main types of operators in Python which are generally used
+these are main types of operators in Python which are generally used
 1. Arithmetic
-2. Relational
+2. Comparison/Relational
 3. Logical
+4. Assignment
+5. Membership
+6. Identity
+
+

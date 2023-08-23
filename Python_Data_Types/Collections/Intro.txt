@@ -1,0 +1,16 @@
+Usually a normal variable will store a single value in it, whenever i want to store
+multiple values in a single variable i need to use collections variables concept
+
+The collection variables can have the following four data-types in Python
+1. List - []
+2. Tuple - ()
+3. Set - {}
+4. Dictionary - {Key:Value}
+
+Note:
+List is indexed, ordered, changeable & allow duplicates
+Tuple is indexed, ordered, unchangeable & allow duplicates
+Set is unindexed, unordered, unchageable(Only Add & Delete, not Edit) & doesn't allow duplicates
+Dictionary is unindexed(uses key), ordered, changeable & doesn't allow duplicates(keys)
+
+The collection should be chosen as per the requirement & according to the collection properties

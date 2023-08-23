@@ -1,3 +1,5 @@
+# By default the python is having capability to handel txt file but not excel file
+
 # Writing data into txt file
 file = open("C:\Demo Files\Python Practice.txt",'w')
 file.write("First line...\n")
@@ -18,4 +20,3 @@ print(file.read()) # will read & print all lines
 # print(file.readline()) # will read & print first line
 # print(file.readline(5)) # will read & print first five characters of the first line
 file.close()
-

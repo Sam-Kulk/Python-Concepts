@@ -1,0 +1,45 @@
+Python is Object-Oriented programming language
+Python is even Structured language
+
+Object-Oriented Programming concepts(OOPs concepts)
+1. Class
+2. Object
+3. Polymorphism
+4. Inheritance
+
+1. Class:
+It is collection of variables/properties & methods/behaviour.
+Cars & it's properties & behaviour analogy
+It is just an object constructor or a blue-print to create an Object
+Class Names should be PascalCase i.e. UpperCamelCase by standard
+
+Note: Function vs Method
+Function defined inside the class is called Method, if it is defined outside/without the class, then it is general function
+
+2. Object
+It is an instance of the class
+
+Note
+--------
+1.To access the variables & methods in the class, I should use Object.Variable , Object.Method()
+If method is returning anything then I can use directly print(Object.Method()), else use the other way
+
+2. Single class can have multiple objects, but usually it is preffered to use a single object unless it is necessary
+
+Class variables
+------------------
+1. The variable which is declared within the class but outside the method, it is called class variable
+2. By-default the scope of the class variable is inside the class but outside the method
+
+METHOD V/S CONSTRUCTOR
+Method:
+I can give any name i.e. def any(self):
+It can have parameters
+It can return value
+To call the method, i need use object i.e.object.any()
+
+Constructor:
+Constructor name is fixed i.e. def __init__(self):
+It can have parameters
+It will not return values
+Constructor will be called at the time of object creation

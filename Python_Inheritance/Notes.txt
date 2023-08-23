@@ -1,0 +1,8 @@
+Inheritance is basically used to reduce the code redundancy
+
+Types of Inheritance
+--------------------
+1. Single Level i.e. A --> B
+2. Multi Level i.e. A -- B --> C & so on..
+3. Hierarchy i.e. A --> B  & A --> C & so on..
+4. Multiple i.e. A --> C & B --> C & so on..

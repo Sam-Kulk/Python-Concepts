@@ -1,0 +1,21 @@
+If you have Python version 3.4 or later, PIP is included by default in the below path
+C:\Users\samarth.kulkarni\AppData\Local\Programs\Python\Python311\Scripts
+
+Most useful pip commands
+-----------------------------
+pip install <package-name>
+pip install --upgrade <package-name>
+pip uninstall <package-name>
+pip list
+pip --version
+Note: I can execute all these commands from any path in cmd, as Scripts path will be present in the System Variable 'Path'.
+
+To upgrade pip, I need to be below path:
+C:\Users\samarth.kulkarni\AppData\Local\Programs\Python\Python311
+
+Then I can use the below command:
+python -m pip install --upgrade pi, where m stands for module
+
+
+The packages installed from the pip will be downloaded in the below path:
+C:\Users\samarth.kulkarni\AppData\Local\Programs\Python\Python311\Lib\site-packages
