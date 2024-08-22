@@ -13,7 +13,9 @@ class D(C):
         # or C.m1(self)  Here I need to mention all the parameters including self
         print(super().name)
         # or print(C.name)
-# Note : I can directly use the Class Name i.e. here C instead super() function, when the child class have multiple parents
+# Note :
+# I can directly use the Class Name i.e. here C instead super() function, when the child class have multiple parents
+# self.name & self.m1() I can use like this when the variables & methods in super class, but in child the names are differrnt.
 
 d = D()
 

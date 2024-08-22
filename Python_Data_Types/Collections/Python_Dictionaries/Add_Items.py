@@ -7,3 +7,5 @@ print(dict1)
 # way2
 dict1.update({'E':5})
 print(dict1)
+
+# E

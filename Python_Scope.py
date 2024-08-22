@@ -1,4 +1,4 @@
-# The scope of a variable is basically the region within which I can access the variable
+# The scope of a variable is basically the region within which I can access the variable.
 # By default the scope of any variable is within the region in which it is created
 
 # 1. Local variable
@@ -31,7 +31,7 @@ print(a)
 myFunction2()
 
 # Global Keyword
-# Use1 - This is basically used to create a global varaible from within the method/function
+# Use1 - This is basically used to create a global varaible from within the method/function.
 
 def myFunction3():
     global x

@@ -17,4 +17,6 @@ gsysyvsvsvsvsgvsv
 
 """ Comments are used to
 1. Explain the code
-2. Prevent the execution of the piece of code when testing the entire code """
+2. Prevent the execution of the piece of code """
+
+# Enough

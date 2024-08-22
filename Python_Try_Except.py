@@ -1,11 +1,12 @@
 # Notes:
 # -------------
-# Exception is an event which causes the termination of the program(Then error message will be thrown)
+# Exception is an event which causes the termination of the program execution(Then error message will be thrown)
 # The exception is type of error in python
-# The exception will occur when invalid input is received.
+# The exception will occur usually when invalid input is received.
 # The exceptions in the python can be handled by try & expect blocks
-# The exception needs to be handled so to make the user understand about the error with an error message.
+# The exception needs to be handled so to make the user understand about the error with an user friendly error message.
 # The else & finally blocks can also be used along with try & expect, however else is not mandatory, but expect/finally are mandatory when try is used
+# try,else & finally can be only one but except blocks can be many.
 
 
 # Brief on blocks
@@ -58,7 +59,7 @@ print("Program ends")
 # syntax :
     # if condition:
         # raise <ExceptionName("Error message")>
-# here error message is optional & exception name is mandatory & can be anything
+# here error message is optional & exception name is also optional & should be among the knows exceptions in Python.
 # If exception to raise is not specified, then it will raise a RunTimeError
 
 # Example 1
@@ -67,16 +68,17 @@ print("Program ends")
 #     raise TypeError("Only positive numbers are allowed")
 
 
-# def num(x):
-#     if x<=0:
-#         raise ValueError
-#     elif x%2 == 0:
-#         print("Even number")
-#     else:
-#         print("Odd number")
+def num(x):
+    if x<=0:
+        raise ValueError
+    elif x%2 == 0:
+        print("Even number")
+    else:
+        raise SyntaxError
 #
 # try:
 #     x = int(input("Please enter number to checked: "))
 #     num(x)
 # except:
 #     print("Please enter a positive value")
+

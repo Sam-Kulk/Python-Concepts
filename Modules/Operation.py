@@ -1,8 +1,8 @@
 # Calling function in another module
-    # Approach 1(Preffered)
-# import Calculator
-# Calculator.add(2,2)
-# Calculator.mul(3,3)
+#     Approach 1(Preffered)
+import Calculator
+Calculator.mul(1,2)
+Calculator.add(1,2)
 
    # Approach 2
 # from Calculator import *
@@ -17,7 +17,7 @@
 # Bird.fly()
 
     # Approach 2
-from Animal import *
-fly()
-from Bird import *
-fly()
+# from Animal import *
+# fly()
+# from Bird import *
+# fly()

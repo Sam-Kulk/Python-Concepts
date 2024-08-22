@@ -1,25 +1,26 @@
+# A date in Python is not a data type of its own, so I can't assign date-time of a varaible and work with it.
+
 import datetime
 x = datetime.datetime.now()
-print(x)
-
+# print(x)
 
 print(x.year)
-print(x.month)
-print(x.day)
-print(x.hour)
-print(x.minute)
-print(x.second)
-print(x.microsecond)
+# print(x.month)
+# print(x.day)
+# print(x.hour)
+# print(x.minute)
+# print(x.second)
+# print(x.microsecond)
 
 # I can continue even after now() like now().year
 
-# I cannot store a datetime value directly in a varaible, since datetime is not a datatype in python, instead I can just catch the returning datetime value from any method/function
 
-# Formatting the datetime value by strftime() Method
+# Creating date with the datetime() class constructor
+# y = datetime.datetime(2023,7,24)
+# print(y)
+# Note : I can even give time (2024,5,26,13,13,13,1233)
+
+# Formatting the datetime value by strftime() Method using format codes.
 print(x.strftime('%A')) # format code
 print(x.strftime('%c'))
 print(x.strftime('%X'))
-
-# Creating date with the datetime() class constructor
-y = datetime.datetime(2023,7,24)
-print(y)

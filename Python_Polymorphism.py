@@ -1,5 +1,5 @@
+# Polymorphism means many forms.
 # Polymorphism is basically the presence of the different methods/functions with different content & with the same name within different classes
-
 
 class Car:
     def __init__(self, brand, model):

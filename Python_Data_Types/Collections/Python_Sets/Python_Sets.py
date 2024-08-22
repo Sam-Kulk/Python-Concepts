@@ -1,5 +1,12 @@
-set1 = {'A','B','C'}
+set1 = {'A',1,1.7,True,None,'A'}
 
-print(set1) # Every time the order of the elements is different
+print(set1)
 
-# Since the sets are unindexed & unordered, so due to this the order of the elements cannot be predicted so hence the set is not much used in testing
+# Unindexed, Unordered, every time the order of the elements is different
+# unchangeable
+# duplicates not allowed, when added in the set, those will be ignored.
+# In sets True == 1 & False == 0, so 1 & True it will consider as duplicates & will ignore one.
+
+# Note : Sets & tuples are not used much for testing
+
+# E

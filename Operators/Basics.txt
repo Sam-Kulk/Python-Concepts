@@ -5,7 +5,6 @@ these are main types of operators in Python which are generally used
 2. Comparison/Relational
 3. Logical
 4. Assignment
-5. Membership
-6. Identity
+5. Membership.
 
-
+# enough

@@ -7,4 +7,5 @@ MC = MyClass()
 MC.x = 120
 print(MC.x)
 print(MC.y)
-print(MC.z)
+
+del MC.x

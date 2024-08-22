@@ -1,6 +1,6 @@
 '''
 These operators are used to combine two conditions
-Each condition will boolean value as output & these operators compare the output of two conditions
+Each condition will give boolean value as output & these operators compare the output of two conditions
 These operators return boolean values as output
 In python there are no symbols for these operators, these are keywords here
 '''
@@ -16,3 +16,5 @@ print(x==y or x<y) # Returns true if any one of the conditional statements is tr
 
 # 3. not
 print(not(y>x and x<y)) # Reverses the result, returns False if the result is True & vice versa
+
+# enough

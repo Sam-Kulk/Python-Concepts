@@ -4,8 +4,9 @@ There are two types of functions in Python
 1. Built-In
 2. User Defined
 
-1. Built-In functions will be readily avaliable for use i.e. len(), type() etc..
+1. Built-In functions will be readily avaliable for use i.e. len(), type(), print() etc..
+Note : It invloves only calling i.e. len(x)
 
 2. I can work with User-defined function by following two steps
-a. Function Defination
+a. Function Definition
 b. Calling/Invoking the defined function

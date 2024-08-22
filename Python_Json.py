@@ -1,34 +1,33 @@
-# Note: From API, the response received will be a JSON string & if i need to pass the JSON to API, it should be a JSON string
+# In Python there is a built-in module 'json' which can be used to work with JSON type of data.
 
-import json,Python_Inheritance.Types.SingleLevel
+# If I hit request to API with python, then the response obtained will be JSON str
+    # Ex : '{"name":"John","age":30, "city":"New York","male":true,"case":null}'
+        # Here JSON will be within quotes internally, in above exmaple it is just for representataion.
+        # key will be in ""
+        # bool values will be true & false
+        # null will represent empty data.
+    # I cannot apply python on this JSON str, so to apply the python to this I need to convert this JSON str to Python Object i.e. dict & it is called as parsing
 
+import json
 x = '{"name":"John","age":30, "city":"New York","male":true,"case":null}'
-# Note:
-# Here '' is just for representation of str here
-# In Json format false,true & null will be there instead of True,False & None
-# "" is valid in JSON not '' for string
-
-
-# parse i.e. JSON str to dict
 y = json.loads(x)
 print(y)
+print(type(y))
 print(y['age'])
 
-# dict to JSON str
+# If I want to hit the request to any API with python, then JSON passed should be in JSON str not python object i.e. dict, this conversion is called as serialization
 z = json.dumps(y)
 print(z)
+print(type(z))
 
-# formatting
+# # formatting
 # 1. indent parameter
 a = json.dumps(y,indent=4) # also gives line breaks after each object/item
 print(a)
 
-# 2. seperator parameter
-b = json.dumps(y,indent=4,separators=('.',"- "))
+# # 2. sort_keys
+b = json.dumps(y,indent=4,sort_keys=True)
 print(b)
 
-# 3. sort_keys
-c = json.dumps(y,indent=4,sort_keys=True)
-print(c)
 
 

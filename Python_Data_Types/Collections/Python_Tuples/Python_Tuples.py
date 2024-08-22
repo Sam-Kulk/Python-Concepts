@@ -1,8 +1,11 @@
-tuple1 = (1,2,3)
-print(tuple1)
+tuple1 = ('A',2,True,'A',12.34)
 
 # indexed
-# ordered
 # unchangeable
-# allow duplicates
+# ordered
+# allow duplicates since indexed
 
+print(tuple1)
+
+# len
+print(len(tuple1))

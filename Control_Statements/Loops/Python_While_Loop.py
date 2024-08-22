@@ -1,8 +1,8 @@
 i = 1
 
-# while i<6:
-#     print(i)
-#     i = i+1
+while i<6:
+    print(i)
+    i = i+1
 
 # break statement
 # while i<6:
@@ -20,4 +20,6 @@ while i < 6:
     continue
   print(i)
 
-# note: Before continue all the staements in iteration coiming before continue will be executed & same in break staement
+# note: Before continue all the staements in iteration coiming before continue will be executed & same in break staement, but not afterwards statements.
+
+# E

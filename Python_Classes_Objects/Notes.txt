@@ -8,10 +8,10 @@ Object-Oriented Programming concepts(OOPs concepts)
 4. Inheritance
 
 1. Class:
-It is collection of variables/properties & methods/behaviour.
-Cars & it's properties & behaviour analogy
-It is just an object constructor or a blue-print to create an Object
-Class Names should be PascalCase i.e. UpperCamelCase by standard
+It is a blue-print to create an Object or it is just an object constructor
+It contains object variables/properties/attributes & methods/behaviour.
+    - Cars & it's properties & behaviour analogy
+Class Names should be PascalCase by standard
 
 Note: Function vs Method
 Function defined inside the class is called Method, if it is defined outside/without the class, then it is general function
@@ -24,7 +24,7 @@ Note
 1.To access the variables & methods in the class, I should use Object.Variable , Object.Method()
 If method is returning anything then I can use directly print(Object.Method()), else use the other way
 
-2. Single class can have multiple objects, but usually it is preffered to use a single object unless it is necessary
+2. Single class can have multiple objects, but usually it is preffered to use a single object & store it in an variable and use it.
 
 Class variables
 ------------------

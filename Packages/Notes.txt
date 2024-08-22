@@ -9,5 +9,5 @@ or
 from package.sub-package.moduleName import *(Preffered)
 
 Note:
-- By default the control will be in project name
+- By default the control will be in directory in which I am present & also project name.
 - '.' is used for navigation

@@ -1,5 +1,9 @@
+PIP is a python package manager.
+
 If you have Python version 3.4 or later, PIP is included by default in the below path
 C:\Users\samarth.kulkarni\AppData\Local\Programs\Python\Python311\Scripts
+
+PIP is used to install libraries on top of python, which are not by default comes with the python.
 
 Most useful pip commands
 -----------------------------
@@ -19,3 +23,7 @@ python -m pip install --upgrade pi, where m stands for module
 
 The packages installed from the pip will be downloaded in the below path:
 C:\Users\samarth.kulkarni\AppData\Local\Programs\Python\Python311\Lib\site-packages
+
+Note : If I am using pycharm, then I can install packages using it only
+
+# E

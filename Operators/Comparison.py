@@ -1,6 +1,6 @@
 '''
 The Comparison operators are also called as Relational operators
-These operators are used to compare two values.
+These operators are used to compare two values i.e. to form/create a condition.
 These operators give boolean values i.e. True/False as output/result
 '''
 
@@ -24,3 +24,5 @@ print(a>=b)  # gives True if anyone condition is true, gives False if both condi
 
 # 6. Less than or Equal to
 print(a<=b)  # gives True if anyone condition is true, gives False if both conditions are false
+
+# enough

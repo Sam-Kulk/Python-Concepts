@@ -1,5 +1,5 @@
 # Most commonly used string methods for modifying strings
-# Note: Most of the string methods can be accessed like s.stringMethod()
+# Note: The string methods can be accessed like str.stringMethod()
 
 s = "Hi there, hello"
 
@@ -11,7 +11,7 @@ print(s.upper())  # I cannot do upper("Hi there, hello")
 # 3. swapcase() - converts the case of the string
 print(s.swapcase())
 
-# 4. strip()
+# 4. strip() - method removes any whitespace from the beginning or the end of the string
 
 # 5. replace() # I can replace substring, which can be even one character as well
 

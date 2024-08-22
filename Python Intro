@@ -1,0 +1,15 @@
+Why Python, compared to other
+==========================================
+- Simple syntax like english language, so it's very conveinent to code & we will be able to write code in fewer lines
+- Platform independent i.e works with windows, linux , Macos i.e.
+- Python can be used in both objected oriented and functional way.
+
+Noticable difference between Python and Other programming languages
+=====================================================================
+- New line to complete statement, in other programming languages ';' is used.
+- Python relies on indentation to define scope of loops, conditions ect..,  in other programming languages curley brackets is used.
+- In Python is a dynamically typed language, which means you don't need to specify the data type explicitly when
+defining a variable, in the runtime it will be determined by the value assigned to it i.e.
+I can just write a = 100
+
+Enough

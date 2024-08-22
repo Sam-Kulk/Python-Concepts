@@ -23,6 +23,7 @@ b = 1
 #     print('a is equal to b')
 
 # Note :
+# In if & elif condition anything can used which gives result in bool and also combination of conditions can also be used.
 # 1. if & else keywords or statements can be used only once, elif can be used any number of times
 # 2. elif & else should be used only after if is used
 
@@ -65,3 +66,5 @@ elif a == b:
     pass
 else:
     pass
+
+# E

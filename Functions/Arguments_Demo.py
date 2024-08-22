@@ -17,4 +17,4 @@ sub(10,2)  # Default value i.e. 1 will be overidden by 2
 def mul(a,b,c):
     print(a*b*c)
 
-mul(1,c=2,b=3)  # Note: All the Keyword arguments should should come after positional agruments
+mul(1,c=2,b=3)  # first all positional arguments should come & then I can add keyword arguments, after keyword arguments there should not be any positional arguments.

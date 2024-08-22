@@ -10,4 +10,4 @@
 - In Python comma(,) or + used as a seperator, to seperate String & variable of data str.
 - In python '.' is used for navigation between different modules.
 - Whenever I want to work with any RDBMS, there will be a dedicated package or say driver of that which it, that need to install & make use of.
-    Ex for MySQL - "mysql-connector-python" package I need to install
+    Ex for MySQL - mysql-connector-python package I need to install

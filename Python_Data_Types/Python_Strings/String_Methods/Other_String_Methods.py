@@ -14,10 +14,12 @@ print(s.endswith("oo")) # case-sensitive
 
 # Special methods
 
-# 1.len()
-    # length of string starts from 1
+# 1. contains() # It is constructor
+print(s.__contains__("off"))
+
+# 2. len()
+# length of string starts from 1
     # I need to used it as below
 print(len(s))
 
-# 2. contains() # It is constructor
-print(s.__contains__("off"))
+# enough

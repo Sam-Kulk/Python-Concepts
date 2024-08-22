@@ -22,7 +22,7 @@ string1 = 'Samarth'
 # for x in range(3,10,3):
 #     print(x)
 
-# break statement is used to exit the loop at a particular iteration or when a specified condition is achieved
+# break statement is used to exit the loop after a particular iteration or when a specified condition is achieved
 # for x in list1:
 #     print(x)
 #     if x == 3:
@@ -33,7 +33,7 @@ string1 = 'Samarth'
 #         break
 #     print(x)
 
-# continue statement is basically used to skip a particular iteration or stop a particular iteration & coutinue with the next iterartion
+# continue statement is basically used to prevent the execution of set of statements in a particular iteration in loop & coutinue with the next iterartion when particular condition is achieved.
 # continue should be used before the actions statements are executed
 
 # for x in list1:
@@ -46,3 +46,5 @@ string1 = 'Samarth'
 # pass statement
 for x in list1:
     pass
+
+# E

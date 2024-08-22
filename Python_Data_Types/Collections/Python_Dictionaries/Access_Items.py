@@ -1,20 +1,14 @@
 thisdict = {
   "brand": "Ford",
   "model": "Mustang",
-  "year": 1964
-}
-
-thisdict1 = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
+   1: 1964
 }
 
 # way1
 print(thisdict["brand"])
 
 # way2(recommended)
-print(thisdict.get("brand"))
+print(thisdict.get(1))
 
 # Note:
 # 1. keys()
@@ -37,3 +31,4 @@ else:
 if thisdict == thisdict1:
     print('yes')
 
+# E

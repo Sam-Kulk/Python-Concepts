@@ -9,6 +9,7 @@ print(List1)
 List1.clear()
 print(List1)
 
-# del List1
+# del List1[0]
 # print(List1)
 
+# Enough

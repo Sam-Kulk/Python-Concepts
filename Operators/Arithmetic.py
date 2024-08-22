@@ -22,14 +22,8 @@ print("a"*2)
 div = a/b   # gives division answer
 print(div)
 
-# 5. Floor division
-f_div = a//b   # gives quotient value
-print(f_div)
+# 5. % Modulus
+modulus = a%b   # gives reminder answer
+print(modulus)
 
-# 6. Modulus
-mod = a%b   # gives remainder value
-print(mod)
-
-# 7. Exponentiation
-exp = a**b   # It is like 10^2
-print(exp)
+# enough

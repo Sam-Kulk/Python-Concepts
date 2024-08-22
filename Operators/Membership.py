@@ -1,4 +1,5 @@
 # These are basically used to check whether the item is present or not present in the sequence i.e. list,tuple,set, dict & string
+# returns boolean value
 
 x = [1,2,3,4,5]
 
@@ -14,3 +15,8 @@ if 5 not in x:
 a = ["A","B","C"]
 print("A" in a)
 print("D" not in a)
+
+a = 'Samarth'
+print('Sa' in a)
+
+# enough

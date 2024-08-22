@@ -11,3 +11,7 @@ for x in dict1:
 # for key-value pairs
 for x,y in dict1.items():
     print(x,y)
+
+# E
+
+

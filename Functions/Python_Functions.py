@@ -1,6 +1,10 @@
+# function name can have alphabets(L & U), numbers & underscore, but what's recomended is that I need to use lowercase only in pascal case
+# ex: my_function()
+
 # function defination
 # ------------------------
 # def my_function():
+
 #     # block of code
 #     print('Hi there, hello!!')
 
@@ -13,7 +17,7 @@
 # def my_function(x,y):
 #     print(x,y)
 #
-# my_function(1)
+# my_function(1) # if arguments are provided, then i need to mandatory to pass the data while calling the function.
 
 # M: function returning value(s) with return statement
 # ------------------------------------

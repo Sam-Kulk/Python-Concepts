@@ -1,21 +1,15 @@
-# format() method is used for string formatting
-# basically it will accept the agruments, puts them in the string & returns the new string
-# it is also a string method
+# I cannot combine numbers & strings and I cannot add string inside a string, to resolve this issue I can use F-String
+# I can use this to update the string in runtime.
 
-# Refer W3S's Python String/Format String & Python String Formatting for more details
+age = 20
+x = f'My name is Sam and my age is {age}'
+print(x)
+# f represents format
 
+# I can perform ceratin operation withing the curley brackets
+x = 2
+y = 4
+z = f'The sum of two numbers {x} and {y} is {x+y}'
+print(z)
 
-txt = "My name is Samarth and I am {} of age"
-print(txt.format(24))
-
-txt = "My name is {} and I am {} of age"
-print(txt.format('Samarth',24))
-
-txt = "My name is {1} and I am {0} of age"
-print(txt.format('Samarth',24))
-
-txt = "My name is {0} and I am {0} of age"
-print(txt.format('Samarth',24))
-
-txt = "My name is {name} and I am {age} of age"
-print(txt.format(name='Samarth',age=24))
+# enough

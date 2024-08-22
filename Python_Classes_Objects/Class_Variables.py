@@ -2,7 +2,7 @@
 class MyClass1:
     a,b = 20,30
     def sum(self):
-        return self.a*self.b   # I cannot directly use the class variable inside the method for that i need to use self keyword which represents the class
+        return self.a*self.b   # I cannot directly use the class variable inside the method for that i need to use self keyword which represents the class within which the method is present.
 
 print(MyClass1().sum())
 
@@ -12,8 +12,8 @@ c = 5
 class MyClass2:
     d = 10
     def add(self,e):
-        print(e+0)     # Local variable in method
-        print(c+0)     # Global variable in method
+        print(e+0)     # Local variable in method can be accessed directly
+        print(c+0)     # Global variable in method can be accessed directly
         print(self.d+0)  # Class valiable in method
 
 MyClass2().add(15)

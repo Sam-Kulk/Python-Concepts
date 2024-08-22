@@ -15,4 +15,14 @@ print(List1)
 
 thislist = ['A','B','C']
 thistuple = ('D','E','F')
-thislist.extend(thistuple)  # I use even dict & set as well
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+thislist.extend(thistuple)
+print(thislist)
+
+thislist.extend(thisdict)  # I use even dict & set as well
+print(thislist)

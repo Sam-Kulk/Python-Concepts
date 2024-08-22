@@ -7,3 +7,5 @@ dict1 = {
 # access
 print(dict1["child1"])
 print(dict1["child1"]['name'])
+
+# E
